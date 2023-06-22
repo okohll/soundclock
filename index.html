@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Sound Clock</title>
+  <script src="https://unpkg.com/@webcomponents/webcomponentsjs@^2/webcomponents-bundle.js"></script>
+  <script src="https://unpkg.com/tone"></script>
+  <script src="https://unpkg.com/@tonejs/ui"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+    crossorigin="anonymous"></script>
+  <script src="soundclock.js"></script>
+  <link type="text/css" rel="stylesheet" href="animation.css" />
+  <link type="text/css" rel="stylesheet" href="soundclock.css" />
+</head>
+<body>
+	<button id="start">start</button>
+
+	<!-- The clock display, from https://cssanimation.rocks/clocks/ -->
+	<article class="clock">
+	  <div class="hours-container">
+	    <div class="hours"></div>
+	  </div>
+	  <div class="minutes-container">
+	    <div class="minutes"></div>
+	  </div>
+	  <div class="seconds-container">
+	    <div class="seconds"></div>
+	  </div>
+	</article>
+
+</body>
+</html>
